@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="ImageFilter.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Ressource\icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="ImageFilter" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
@@ -309,19 +310,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tHaNy3dFArNqe3Nu6h6Bx3Nlb1NRjinRjeg2/ffxtPU=</dsig:DigestValue>
+        <dsig:DigestValue>1+hYX1pFcAi+JhcH6PnFQSTVDHLcEEW58VTQyMTdC1w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ImageFilter.exe" size="26624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ImageFilter.exe" size="30208">
       <assemblyIdentity name="ImageFilter" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>70G/Qp0yFgsX8mOClFyUp93GI1OhiSzMs1wR2dgKcpU=</dsig:DigestValue>
+        <dsig:DigestValue>lW0GSKEZzQ1H4bsap7LQlTtsHS4JBeQBIPOgOnymhBs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -332,6 +333,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>1Ehh3ZY8J9ocHo99HsPzSQJC/jl1Nk8tqMH7l98npqQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ressource\icon.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U2s4d5UAiSKCJzc6ylFC3MvsQwbiamrsSa/+meXWkWU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

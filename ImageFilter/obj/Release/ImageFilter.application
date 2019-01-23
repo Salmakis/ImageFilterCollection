@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ImageFilter.exe.manifest" size="19985">
+    <dependentAssembly dependencyType="install" codebase="ImageFilter.exe.manifest" size="20477">
       <assemblyIdentity name="ImageFilter.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aqlfYqTgQU9k0Nb3JECrVu27Wbc4oK5jeCT+ZoWH2Qc=</dsig:DigestValue>
+        <dsig:DigestValue>yVbco5bdgocukNLfCImsEUE1c29FBXYdjo2I8jMThVI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

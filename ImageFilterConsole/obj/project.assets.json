@@ -202,11 +202,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\ImageFilterConsole\\ImageFilterConsoleInterface.csproj",
+      "projectUniqueName": "C:\\Github\\ImageFilterCollection\\ImageFilterConsole\\ImageFilterConsoleInterface.csproj",
       "projectName": "ImageFilterConsoleInterface",
-      "projectPath": "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\ImageFilterConsole\\ImageFilterConsoleInterface.csproj",
+      "projectPath": "C:\\Github\\ImageFilterCollection\\ImageFilterConsole\\ImageFilterConsoleInterface.csproj",
       "packagesPath": "C:\\Users\\salma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\ImageFilterConsole\\obj\\",
+      "outputPath": "C:\\Github\\ImageFilterCollection\\ImageFilterConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -225,8 +225,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\FilterWrapper\\FilterWrapper.csproj": {
-              "projectPath": "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\FilterWrapper\\FilterWrapper.csproj"
+            "C:\\Github\\ImageFilterCollection\\FilterWrapper\\FilterWrapper.csproj": {
+              "projectPath": "C:\\Github\\ImageFilterCollection\\FilterWrapper\\FilterWrapper.csproj"
             }
           }
         }

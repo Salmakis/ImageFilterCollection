@@ -186,11 +186,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\FilterWrapper\\FilterWrapper.csproj",
+      "projectUniqueName": "C:\\Github\\ImageFilterCollection\\FilterWrapper\\FilterWrapper.csproj",
       "projectName": "FilterWrapper",
-      "projectPath": "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\FilterWrapper\\FilterWrapper.csproj",
+      "projectPath": "C:\\Github\\ImageFilterCollection\\FilterWrapper\\FilterWrapper.csproj",
       "packagesPath": "C:\\Users\\salma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salma\\OneDrive\\Projekte\\ImageFilter\\FilterWrapper\\obj\\",
+      "outputPath": "C:\\Github\\ImageFilterCollection\\FilterWrapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
