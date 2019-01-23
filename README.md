@@ -25,6 +25,10 @@ It also contains some code from [Hawkynt](https://github.com/Hawkynt) 2dImageFil
 ## ImageFilter (Wpf application)
 a gui app that can make use of all the filters that are Implemented with FilterWrapper.
 
+## Make your own Filter
+To add your filter, all you need is to Implement the IImageFilter interface, or copy and modify other IImageFilter implementations.
+They will automaticly added to the Collection via Reflection.
+
 ## Others
 There are also 2 console Projects, they was just to test some stuff.
 
