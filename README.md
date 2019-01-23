@@ -4,6 +4,8 @@ Based on the 2dIageFilter by Hawkynt: https://github.com/Hawkynt/2dimagefilter
 
 Most likely i made a new gui (WPF) and added the option to use the clipboard as source for the images, and a wrapper to use the filters in any NetStandart2.0 or higher environemt.
 
+It supports PNG files and Clipboard with Alpha channel
+
 ![Screenshot](Screenshots/ImageFilter2.png)
 
 # Usage
