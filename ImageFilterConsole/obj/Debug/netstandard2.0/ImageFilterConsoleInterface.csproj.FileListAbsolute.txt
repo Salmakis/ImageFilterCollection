@@ -1,0 +1,11 @@
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\bin\Debug\netstandard2.0\ImageFilterConsoleInterface.deps.json
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\bin\Debug\netstandard2.0\ImageFilterConsoleInterface.dll
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\bin\Debug\netstandard2.0\ImageFilterConsoleInterface.pdb
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\bin\Debug\netstandard2.0\FilterWrapper.dll
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\bin\Debug\netstandard2.0\FilterWrapper.pdb
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.csprojResolveAssemblyReference.cache
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.csproj.CoreCompileInputs.cache
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.AssemblyInfoInputs.cache
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.AssemblyInfo.cs
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.dll
+C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.pdb

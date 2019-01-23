@@ -1,0 +1,9 @@
+C:\Users\salma\OneDrive\Projekte\ImageFilter\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.csproj.CoreCompileInputs.cache
+C:\Users\salma\OneDrive\Projekte\ImageFilter\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.AssemblyInfoInputs.cache
+C:\Users\salma\OneDrive\Projekte\ImageFilter\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.AssemblyInfo.cs
+C:\Users\salma\OneDrive\Projekte\ImageFilter\Release\netstandard2.0\FilterWrapper.deps.json
+C:\Users\salma\OneDrive\Projekte\ImageFilter\Release\netstandard2.0\FilterWrapper.dll
+C:\Users\salma\OneDrive\Projekte\ImageFilter\Release\netstandard2.0\FilterWrapper.pdb
+C:\Users\salma\OneDrive\Projekte\ImageFilter\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.dll
+C:\Users\salma\OneDrive\Projekte\ImageFilter\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.pdb
+C:\Users\salma\OneDrive\Projekte\ImageFilter\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.csprojResolveAssemblyReference.cache
