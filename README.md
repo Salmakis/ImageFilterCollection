@@ -1,10 +1,10 @@
 # Image Filter Collection
-Collection of Image Filters for Pixel Art resizing. (HQ, XBR, etc)
-Based on the 2dImageFilter by Hawkynt: https://github.com/Hawkynt/2dimagefilter
+Collection of Image Filters for PixelArt resizing. (HQ, XBR, etc)
+based on the 2dImageFilter by Hawkynt: https://github.com/Hawkynt/2dimagefilter
 
 Most likely i made a new gui (WPF) and added the option to use the clipboard as source for the images, and a wrapper to use the filters in any NetStandart2.0 or higher environemt.
 
-It supports PNG files and Clipboard with Alpha channel
+It supports PNG files and clipboard with alpha channel
 
 ![Screenshot](Screenshots/ImageFilter2.png)
 
