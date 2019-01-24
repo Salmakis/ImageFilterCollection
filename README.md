@@ -6,7 +6,13 @@ Most likely i made a new gui (WPF) and added the option to use the clipboard as 
 
 It supports PNG files and clipboard with alpha channel
 
-![Screenshot](Screenshots/ImageFilter2.png)
+![Screenshot](Docs/Screenshots/screenie.png)
+
+# Installation (Windows binaries)
+Just download the latest windows binaries [Here](https://github.com/Salmakis/ImageFilterCollection/releases/latest)
+Unpack the contents of the zip archive somewhere and start ImageFilter.exe (no installation needed)
+You might need some .net runtime stuff if you are not using Windows 10.
+note: The windows defender does not like this tool for any reason, i dont know why. (and dont care)
 
 # Usage
 Its easy, in the top left corner you can provide an image (paste from the clipboard) or load from a PNG file.
