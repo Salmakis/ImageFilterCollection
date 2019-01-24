@@ -9,7 +9,8 @@ It supports PNG files and clipboard with alpha channel
 ![Screenshot](Docs/Screenshots/screenie.png)
 
 # Installation (Windows binaries)
-Just download the latest windows binaries [Here](https://github.com/Salmakis/ImageFilterCollection/releases/latest)
+Just download the latest windows binaries [Here](https://github.com/Salmakis/ImageFilterCollection/releases/latest).
+
 Unpack the contents of the zip archive somewhere and start ImageFilter.exe (no installation needed)
 You might need some .net runtime stuff if you are not using Windows 10.
 note: The windows defender does not like this tool for any reason, i dont know why. (and dont care)
