@@ -23,6 +23,13 @@ Pick a filte in the middle and adjust the settings for it and click on "Convert"
 
 You can save the result to a PNG file or copy the result into the Clipboard on the right side.
 
+## Tiledmode
+With the Tilemode enabled, each tile of a given tileset image will be processed for itself and then it will be reassembled to an image.
+This way you can prevent that the tiles affect each other.
+You can use the checkbox Tiledmode, if you activate it you need to enter the tilesize into the textboxes below the checkbox.
+Type the size of the tiles from the input image
+![Screenshot](Docs/Screenshots/tiledmode.png)
+
 # Projects in the Solution
 ## FilterWrapper (.NetStandard 2.0)
 This Project contains a wrapper for the filters that wraps them into an interface that can than be used by other programms that can be .net4 or netCore.
@@ -40,5 +47,4 @@ They will automaticly added to the Collection via Reflection.
 There are also 2 console Projects, they was just to test some stuff.
 
 ## What i want to do next
-+ a special mode for tilesets (work each tile individually to prevent border problems between tiles)
 + a web version that uses the FilterWrapper project (.netCore ASP or maybe for Piranha CMS)
