@@ -29,6 +29,12 @@ namespace ImageFilter
 			InitializeComponent();
 		}
 
+		private void ToggleTilemode(object sender, RoutedEventArgs e) {
+			CheckBox tileModeBox = (System.Windows.Controls.CheckBox)sender;
+			((System.Windows.Controls.TextBox)this.FindName("tileXbox")).IsEnabled = tileModeBox.IsChecked ?? false;
+			((System.Windows.Controls.TextBox)this.FindName("tileYbox")).IsEnabled = tileModeBox.IsChecked ?? false;
+		}
+
 		private void LoadFromFile(object sender, RoutedEventArgs e) {
 			OpenFileDialog dialog = new OpenFileDialog();
 			dialog.Filter = "PNG files (*.png)|*.png";

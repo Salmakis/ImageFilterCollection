@@ -9,3 +9,14 @@ C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netsta
 C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.AssemblyInfo.cs
 C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.dll
 C:\Users\salma\OneDrive\Projekte\ImageFilter\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.pdb
+C:\Github\ImageFilterCollection\ImageFilterConsole\bin\Debug\netstandard2.0\ImageFilterConsoleInterface.deps.json
+C:\Github\ImageFilterCollection\ImageFilterConsole\bin\Debug\netstandard2.0\ImageFilterConsoleInterface.dll
+C:\Github\ImageFilterCollection\ImageFilterConsole\bin\Debug\netstandard2.0\ImageFilterConsoleInterface.pdb
+C:\Github\ImageFilterCollection\ImageFilterConsole\bin\Debug\netstandard2.0\FilterWrapper.dll
+C:\Github\ImageFilterCollection\ImageFilterConsole\bin\Debug\netstandard2.0\FilterWrapper.pdb
+C:\Github\ImageFilterCollection\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.csprojResolveAssemblyReference.cache
+C:\Github\ImageFilterCollection\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.csproj.CoreCompileInputs.cache
+C:\Github\ImageFilterCollection\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.AssemblyInfoInputs.cache
+C:\Github\ImageFilterCollection\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.AssemblyInfo.cs
+C:\Github\ImageFilterCollection\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.dll
+C:\Github\ImageFilterCollection\ImageFilterConsole\obj\Debug\netstandard2.0\ImageFilterConsoleInterface.pdb

@@ -7,9 +7,9 @@ C:\Users\salma\OneDrive\Projekte\ImageFilter\FilterWrapper\obj\Release\netstanda
 C:\Users\salma\OneDrive\Projekte\ImageFilter\Release\netstandard2.0\FilterWrapper.deps.json
 C:\Users\salma\OneDrive\Projekte\ImageFilter\Release\netstandard2.0\FilterWrapper.dll
 C:\Users\salma\OneDrive\Projekte\ImageFilter\Release\netstandard2.0\FilterWrapper.pdb
-C:\Github\ImageFilterCollection\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.csprojResolveAssemblyReference.cache
 C:\Github\ImageFilterCollection\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.csproj.CoreCompileInputs.cache
 C:\Github\ImageFilterCollection\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.AssemblyInfoInputs.cache
 C:\Github\ImageFilterCollection\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.AssemblyInfo.cs
 C:\Github\ImageFilterCollection\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.dll
 C:\Github\ImageFilterCollection\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.pdb
+C:\Github\ImageFilterCollection\FilterWrapper\obj\Release\netstandard2.0\FilterWrapper.csprojResolveAssemblyReference.cache

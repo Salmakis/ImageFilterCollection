@@ -61,6 +61,13 @@ namespace FilterWrapper
 			this.Reset(width, height);
 		}
 
+		public void SetPixelArgb(int x, int y, int Argb) {
+			a[x * height + y] = (byte)((Argb & 0xff000000) >> 24);
+			r[x * height + y] = (byte)((Argb & 0x00ff0000) >> 16);
+			g[x * height + y] = (byte)((Argb & 0x0000ff00) >> 8);
+			b[x * height + y] = (byte)(Argb & 0x000000ff);
+		}
+
 		public void SetPixel(int x, int y, byte r, byte g, byte b, byte a)
 		{
 			if (x > width || x < 0 || y > height || y < 0)
@@ -104,6 +111,24 @@ namespace FilterWrapper
 			this.g[x * height + y] = color.G;
 			this.b[x * height + y] = color.B;
 			this.a[x * height + y] = color.A;
+		}
+
+		public FilterImage GrabSubImage(int x, int y, int w, int h) {
+			FilterImage subImage = new FilterImage(w, h);
+			for (int ix = 0; ix < w; ix++) {
+				for (int iy = 0; iy < h; iy++) {
+					subImage.SetPixelArgb(ix, iy, PixelArgb(ix + x, iy + y));
+				}
+			}
+			return subImage;
+		}
+
+		public void PutImage(int x, int y, FilterImage image) {
+			for (int ix = 0; ix < image.width; ix++) {
+				for (int iy = 0; iy < image.height; iy++) {
+					SetPixelArgb(ix + x, iy + y, image.PixelArgb(ix, iy));
+				}
+			}
 		}
 	}
 }

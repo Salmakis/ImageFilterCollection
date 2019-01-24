@@ -38,30 +38,28 @@ namespace ImageFilter
 				return;
 			}
 
+			if ((((System.Windows.Controls.CheckBox)this.FindName("tileToggle")).IsChecked ?? false)) {
+				await ExecuteCurrentFilterTiled();
+				return;
+			}
+				
 			converting = true;
 			//maybe display its settings again to see the up to date settings
 			DisplayCurrentFilterSettings();
 			
-			Stopwatch watch = new Stopwatch();
-			watch.Start();
 			PushProgress("Executing the filter", 1);
 			//convert bitmap to filterImage and perform the filter
 			var convertTask = Task.Run(() => this.currentFilter.Execute(this.inputImage));
 			var outputFilterImage = await convertTask;
-			Console.WriteLine($"execute filter:{watch.ElapsedMilliseconds}");
 
-			watch.Restart();
 			//convert the result back to bitmap
 			PushProgress("Fetching result", 2);
 			var outputTask = Task.Run(() => FilterImageConvert.BitmapFromFilterImage(outputFilterImage));
 			var outputBitmap = await outputTask;
-			Console.WriteLine($"convert back to bmp:{watch.ElapsedMilliseconds}");
 
-			watch.Restart();
 			//apply the output bitmap guiwise
 			PushProgress("Rendering result", 3);
 			SetOutputImage(outputBitmap);
-			Console.WriteLine($"apply to gui:{watch.ElapsedMilliseconds}");
 
 			converting = false;
 		}

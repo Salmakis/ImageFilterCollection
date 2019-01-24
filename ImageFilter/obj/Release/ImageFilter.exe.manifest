@@ -303,26 +303,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FilterWrapper.dll" size="226816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FilterWrapper.dll" size="227840">
       <assemblyIdentity name="FilterWrapper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1+hYX1pFcAi+JhcH6PnFQSTVDHLcEEW58VTQyMTdC1w=</dsig:DigestValue>
+        <dsig:DigestValue>BhIlkvlN6HosgSqNrhfOSy48iAu1E1vlM6jeWR5CecQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ImageFilter.exe" size="30208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ImageFilter.exe" size="33792">
       <assemblyIdentity name="ImageFilter" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lW0GSKEZzQ1H4bsap7LQlTtsHS4JBeQBIPOgOnymhBs=</dsig:DigestValue>
+        <dsig:DigestValue>NmKoZBOQe4ldv+Ij9eV1jS/krA4yj2Lyy1uMVFAZekk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

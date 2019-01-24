@@ -87,7 +87,24 @@
 			</Grid>
 		</Border>
 		<Border Grid.Column="2" BorderThickness="2" BorderBrush="DarkGray">
-			<Button Content="Convert" Click="StartConvert"/>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="5"/>
+					<RowDefinition Height="18"/>
+					<RowDefinition Height="18"/>
+					<RowDefinition Height="50*"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="50*"/>
+					<ColumnDefinition Width="15"/>
+					<ColumnDefinition Width="50*"/>
+				</Grid.ColumnDefinitions>
+				<Button Content="Convert" Grid.Row="3" Grid.ColumnSpan="3" Click="StartConvert"/>
+				<CheckBox x:Name="tileToggle" Content="Tiledmode" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" ToggleButton.Unchecked="ToggleTilemode" ToggleButton.Checked="ToggleTilemode"/>
+				<TextBox x:Name="tileXbox" Grid.Row="2" Grid.Column="0" Text="16" IsEnabled="false" PreviewTextInput="CheckTileSize"/>
+				<Label Content="*" Grid.Column="1" Grid.Row="2"/>
+				<TextBox x:Name="tileYbox" Grid.Row="2" Grid.Column="2" Text="16" IsEnabled="false" PreviewTextInput="CheckTileSize"/>
+			</Grid>
 		</Border>
 		<Border Grid.Column="3" BorderThickness="2" BorderBrush="DarkGray">
 			<Grid >
@@ -122,7 +139,7 @@
 				<ProgressBar Grid.Row="1" Minimum="0" Maximum="4" Value="0" x:Name="ProgressBar"  Background="#FF020202" BorderBrush="#FF4B4B4B" HorizontalAlignment="Center" Margin="10,40,10,38" Width="661"/>
 				<Label Content="a Moment please" x:Name="ProgressText" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="15" FontWeight="Bold" Foreground="#FF0CFF00"/>
 			</Grid>
-		</Border>
+		</Border>		
 	</Grid>
 
 </Window>
