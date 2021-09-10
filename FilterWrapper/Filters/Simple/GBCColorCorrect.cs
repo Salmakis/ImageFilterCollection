@@ -10,7 +10,7 @@ namespace FilterWrapper.Filters.Simple
 		List<Setting> settings = new List<Setting>();
 
 		SettingBoolean reduceColors = new SettingBoolean("15-bit", "Reduce colors to 15-bit RGB.", true);
-		SettingInteger simulatedDarkness = new SettingInteger("Grey %", "Simulates the grey background of the LCD screen.", 5, 50, 0);
+		SettingInteger simulatedDarkness = new SettingInteger("Grey %", "Simulates the grey background of the LCD screen.", 8, 50, 0);
 		SettingOption style = new SettingOption("Style", "Which color correcting method to use", new string[] { "Pokefan531", "Sameboy", "None"});
 
 
@@ -262,22 +262,22 @@ namespace FilterWrapper.Filters.Simple
 		}
 		private byte scale_channel_with_curve(byte x)
 		{
-			byte[] curve = {	0,
-								2,
-								4,
-								7,
-								12,
-								18,
-								25,
-								34,
-								42,
-								52,
-								62,
-								73,
-								85,
-								97,
-								109,
-								121,
+			byte[] curve = {	7,
+								15,
+								23,
+								31,
+								39,
+								47,
+								55,
+								63,
+								71,
+								79,
+								87,
+								95,
+								103,
+								111,
+								120,
+								128,
 								134,
 								146,
 								158,
