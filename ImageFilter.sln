@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageFilter", "ImageFilter\ImageFilter.csproj", "{0B050721-81EC-4F52-9A20-9B3585A12112}"
 EndProject
@@ -14,22 +14,29 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		NetStandard3|Any CPU = NetStandard3|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0B050721-81EC-4F52-9A20-9B3585A12112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B050721-81EC-4F52-9A20-9B3585A12112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B050721-81EC-4F52-9A20-9B3585A12112}.NetStandard3|Any CPU.ActiveCfg = NetStandard3|Any CPU
+		{0B050721-81EC-4F52-9A20-9B3585A12112}.NetStandard3|Any CPU.Build.0 = NetStandard3|Any CPU
 		{0B050721-81EC-4F52-9A20-9B3585A12112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B050721-81EC-4F52-9A20-9B3585A12112}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DA65259-E8B0-48C6-B0A3-06DE2C5FE84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DA65259-E8B0-48C6-B0A3-06DE2C5FE84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA65259-E8B0-48C6-B0A3-06DE2C5FE84E}.NetStandard3|Any CPU.ActiveCfg = NetStandard3|Any CPU
+		{0DA65259-E8B0-48C6-B0A3-06DE2C5FE84E}.NetStandard3|Any CPU.Build.0 = NetStandard3|Any CPU
 		{0DA65259-E8B0-48C6-B0A3-06DE2C5FE84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA65259-E8B0-48C6-B0A3-06DE2C5FE84E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3994AC16-1E73-4681-B892-CEC357F85F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3994AC16-1E73-4681-B892-CEC357F85F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3994AC16-1E73-4681-B892-CEC357F85F65}.NetStandard3|Any CPU.ActiveCfg = NetStandard3|Any CPU
 		{3994AC16-1E73-4681-B892-CEC357F85F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67624BF7-5B92-4231-ADF2-9A067D3DD400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67624BF7-5B92-4231-ADF2-9A067D3DD400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67624BF7-5B92-4231-ADF2-9A067D3DD400}.NetStandard3|Any CPU.ActiveCfg = NetStandard3|Any CPU
 		{67624BF7-5B92-4231-ADF2-9A067D3DD400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
