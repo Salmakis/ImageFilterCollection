@@ -48,9 +48,11 @@ namespace ImageFilter
 			Task<FilterImage> testConvertTask = Task.Run(() => this.currentFilter.Execute(this.inputImage.GrabSubImage(0, 0, tileSizeX, tileSizeY)));
 			FilterImage testOutputFilterImage = await testConvertTask;
 			
-			int scaleX = testOutputFilterImage.Width / tileSizeX;
-			int scaleY = testOutputFilterImage.Height / tileSizeY;
-			FilterImage outputImage = new FilterImage(this.inputImage.Width * scaleX, this.inputImage.Height * scaleY);
+			decimal scaleX = (decimal)testOutputFilterImage.Width / (decimal)tileSizeX;
+			decimal scaleY = (decimal)testOutputFilterImage.Height / (decimal)tileSizeY;
+			int outWidth = (int)Math.Ceiling(this.inputImage.Width * scaleX);
+			int outHeight = (int)Math.Ceiling(this.inputImage.Height * scaleY);
+			FilterImage outputImage = new FilterImage(outWidth, outHeight);
 			
 			int offsetX;
 			int offsetY = 0;
@@ -62,7 +64,9 @@ namespace ImageFilter
 					PushProgress($"converting tile: {tilesProcessed} / {tilesToProcess}", 2);
 					Task <FilterImage> convertTileTask = Task.Run(() => this.currentFilter.Execute(this.inputImage.GrabSubImage(offsetX, offsetY, tileSizeX, tileSizeY)));
 					FilterImage iOutputTile = await convertTileTask;
-					outputImage.PutImage(offsetX * scaleX, offsetY * scaleY, iOutputTile);
+					int offX = (int)Math.Floor(offsetX * scaleX);
+					int offY = (int)Math.Floor(offsetY * scaleY);
+					outputImage.PutImage(offX, offY, iOutputTile);
 					offsetX += tileSizeX;
 					tilesProcessed++;
 				}

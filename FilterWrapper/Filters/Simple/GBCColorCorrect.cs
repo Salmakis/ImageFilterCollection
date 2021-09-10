@@ -10,7 +10,7 @@ namespace FilterWrapper.Filters.Simple
 		List<Setting> settings = new List<Setting>();
 
 		SettingBoolean reduceColors = new SettingBoolean("15-bit", "Reduce colors to 15-bit RGB.", true);
-		SettingInteger simulatedDarkness = new SettingInteger("Grey %", "Simulates the grey background of the LCD screen.", 8, 50, 0);
+		SettingInteger simulatedDarkness = new SettingInteger("Grey %", "Simulates the grey background of the LCD screen.", 5, 50, 0);
 		SettingOption style = new SettingOption("Style", "Which color correcting method to use", new string[] { "Pokefan531", "Sameboy", "None"});
 
 

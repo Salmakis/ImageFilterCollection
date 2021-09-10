@@ -75,7 +75,7 @@ namespace FilterWrapper.Filters.Simple
 					}
 					else
 					{
-						finalPixel = MostCommonValue(argbCount);
+						finalPixel = LeastCommonValue(argbCount);
 					}
 					newImage.SetPixelArgb(x, y, finalPixel);
 				}
@@ -83,6 +83,21 @@ namespace FilterWrapper.Filters.Simple
 			return newImage;
 		}
 
+		private int LeastCommonValue(Dictionary<int, int> argbs)
+		{
+			int _argb = 0;
+			int count = int.MaxValue;
+			foreach (KeyValuePair<int, int> entry in argbs)
+			{
+				if (entry.Value < count)
+				{
+					_argb = entry.Key;
+					count = entry.Value;
+				}
+			}
+
+			return _argb;
+		}
 		private int MostCommonValue(Dictionary<int, int> argbs)
 		{
 			int _argb = 0;
